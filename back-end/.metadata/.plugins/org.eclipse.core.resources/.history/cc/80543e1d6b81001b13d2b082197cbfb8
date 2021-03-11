@@ -1,0 +1,10 @@
+package com.example.demo.uss.domain;
+
+import org.springframework.stereotype.Component;
+
+@Component // Annotation
+public class UserDto { // Dto를 붙여서 Component가 아니라 Annotation을 통해 컴포넌트로 만들었다
+	private String username;
+	private String password;
+	private char enabled;
+}

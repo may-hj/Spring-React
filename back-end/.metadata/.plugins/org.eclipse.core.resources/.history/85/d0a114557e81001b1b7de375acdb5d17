@@ -1,0 +1,10 @@
+package com.example.demo.article.domain;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Component @Data
+public class Article {
+
+}

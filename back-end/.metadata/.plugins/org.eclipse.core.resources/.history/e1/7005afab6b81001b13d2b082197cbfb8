@@ -1,0 +1,6 @@
+package com.example.demo.bbs.repository;
+
+//@Repository
+public class BoardRepository {
+
+}
