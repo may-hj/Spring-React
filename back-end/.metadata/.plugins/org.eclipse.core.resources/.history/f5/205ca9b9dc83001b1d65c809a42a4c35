@@ -1,0 +1,6 @@
+package com.example.demo.cmm.repository;
+
+interface CommonCustomRepository{}
+public interface CommonRepository {
+
+}

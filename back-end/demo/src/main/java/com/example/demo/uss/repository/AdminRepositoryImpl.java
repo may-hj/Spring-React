@@ -1,5 +1,8 @@
 package com.example.demo.uss.repository;
 
-public class AdminRepositoryImpl {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public abstract class AdminRepositoryImpl implements AdminRepository{
 
 }
