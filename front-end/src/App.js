@@ -4,10 +4,16 @@ import { BrowserRouter as Router } from 'react-router-dom'
 const App = () => 
   (
     <>
-      <h1>HomePage</h1>
-      <button>SignUp</button>
-      <button>Login</button>
+      <div className="topnav">
+        <a className="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div className="topnav_right">
+          <a href="#search">Search</a>
+          <a href="#about">About</a>
+        </div>
+      </div>  
     </>
   )
 
-export default App;
+export default App

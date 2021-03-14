@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Login from './sec/component/Login';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import './index.css';
+// import App from './App';
+// import Login from './sec/component/Login';
+// import SignUp from './uss/component/SignUp';
+import ArticleList from './bbs/component/ArticleList';
+// import ArticleAdd from './bbs/component/ArticleAdd';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <ArticleList/>
   </React.StrictMode>,
   document.getElementById('root')
 );
