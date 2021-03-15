@@ -1,19 +1,15 @@
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom'
+import React, {useState} from 'react'
+import Counter from './cmm/component/Counter'
+import Login from './sec/component/Login'
+import SignUp from './uss/component/SignUp'
 
-const App = () => 
-  (
-    <>
-      <div className="topnav">
-        <a className="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <div className="topnav_right">
-          <a href="#search">Search</a>
-          <a href="#about">About</a>
-        </div>
-      </div>  
-    </>
-  )
+const App = () => {
+
+return (<>
+    <Counter/>
+    <Login/>
+    <SignUp/>
+  </>)
+}
 
 export default App

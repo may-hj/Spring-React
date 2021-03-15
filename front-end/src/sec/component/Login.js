@@ -1,7 +1,11 @@
-import './Login.css';
+import React, { useState } from 'react'
+import './Login.css'
 
-const Login = () => 
-    (<form method="post">
+const Login = () => {
+    const [print, setPrint] = useState("")
+    const 
+    return (<>
+    <form method="post">
         <div className="imgcontainer">
             <img src="img_avatar2.png" alt="Avatar" className="avatar"/>
         </div>
@@ -19,6 +23,7 @@ const Login = () =>
             <button type="button" className="cancelbtn">Cancel</button>
             <span className="psw">Forgot <a href="#">password?</a></span>
         </div>
-    </form>)
-
+    </form>
+    </>)
+}
 export default Login
