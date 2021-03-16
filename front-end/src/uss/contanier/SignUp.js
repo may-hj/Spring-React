@@ -1,4 +1,4 @@
-import './SignUp.css';
+import '../component/SignUp.css';
 
 const SingUp = () => 
   (<form style={{border:"1px solid #ccc"}}>

@@ -1407,3 +1407,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-15 09:26:55.604
 !MESSAGE executing callback sts4.classpath.NoPDppiq SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-15 17:18:25.842
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NoPDppiq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-15 17:18:25.854
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NoPDppiq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-15 17:18:25.865
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-15 17:18:25.875
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NoPDppiq => OK

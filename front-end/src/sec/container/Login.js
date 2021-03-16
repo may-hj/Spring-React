@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import './Login.css'
+import '../component/Login.css'
 
 const Login = () => {
-    const [print, setPrint] = useState("")
-    const 
+ 
     return (<>
     <form method="post">
         <div className="imgcontainer">
